@@ -8,4 +8,25 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
+    font-family: 'DotGothic16', sans-serif;
+    background-color: #00b2cc;
+}
+.menu-logo {
+    color: blanchedalmond;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 26px;
+}
+.menu-list {
+    display: flex;
+
+    justify-content: space-around;
+    width: 35%;
+}
+.menu-list :hover{
+    color: blueviolet;
+    background-color: blanchedalmond;
+}
+.menu-list_link {
+    text-decoration: none;
 }
