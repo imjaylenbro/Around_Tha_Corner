@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* the navbar */
 nav {
     display: flex;
     justify-content: space-around;
@@ -10,23 +11,80 @@ nav {
     min-height: 8vh;
     font-family: 'DotGothic16', sans-serif;
     background-color: #00b2cc;
+    width: 100%;
 }
+/* the title space */
 .menu-logo {
     color: blanchedalmond;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 20px;
     font-size: 26px;
+    margin: 20px;
 }
+/* tags/pages */
 .menu-list {
     display: flex;
-
     justify-content: space-around;
-    width: 35%;
+    width: 90%;
+    font-size: 15px;
+    list-style: none;
+  
 }
-.menu-list :hover{
+/* making the words bigger when mouse is hovered over */
+ /* .menu-list :hover{
     color: blueviolet;
     background-color: blanchedalmond;
-}
-.menu-list_link {
+    letter-spacing: 10px;
+}  */
+
+.menu-list a {
     text-decoration: none;
+   letter-spacing: 1px;
+   font-weight: bold;
+}
+.burger {
+    display: none;
+}
+.burger div {
+    width: 29px;
+    height: 5px;
+    background-color: blanchedalmond;
+    margin: 5px;
+}
+/* tablet header zone */
+@media screen and (max-width: 1024px){
+  
+        
+    .menu-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 15px;
+    list-style: none;
+    
+    }
+  
+}
+/* moblie zone */
+@media screen and (max-width: 760px){
+  
+ .menu-list a {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color:  #00b2cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translate(100%)
+
+}
+.menu-list li{
+    opacity: 0;
+}
+.burger {
+    display: block;
+}
 }
