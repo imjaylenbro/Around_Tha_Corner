@@ -31,11 +31,12 @@ nav {
   
 }
 /* making the words bigger when mouse is hovered over */
- /* .menu-list :hover{
+  .menu-list :hover{
     color: blueviolet;
     background-color: blanchedalmond;
     letter-spacing: 10px;
-}  */
+    list-style: none;
+}  
 
 .menu-list a {
     text-decoration: none;
