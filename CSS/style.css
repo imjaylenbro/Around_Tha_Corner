@@ -10,14 +10,12 @@
 }
 .media-box {
     border: 2px dotted black;
-    width: 35%;
-    
+    width:24%;
+    height: 30%;
+
 }
 .god-img {
     width: 100%;
-}
-.god-video{
-   width: 100%;
 }
 .pod-img{
     width: 100%;
@@ -29,6 +27,7 @@
     padding: 15px;
     flex-wrap: wrap;
     width: 75%;
+    justify-content: space-between;
 
 }
 
