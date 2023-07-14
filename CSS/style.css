@@ -20,6 +20,9 @@
 .pod-img{
     width: 100%;
 }
+.aod-img{
+    width: 100%;
+}
 .media-containter {
     display: flex;
     flex-direction: row;  
@@ -27,10 +30,10 @@
     padding: 15px;
     flex-wrap: wrap;
     width: 75%;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
-.social-insta, .social-website {
-    width:20%
+.socials {
+    width:47%;
 }
