@@ -31,9 +31,11 @@
     flex-wrap: wrap;
     width: 75%;
     justify-content: space-evenly;
+    
 
 }
 
 .socials {
-    width:47%;
-}
+    width:45%;
+   text-align: center;
+   
