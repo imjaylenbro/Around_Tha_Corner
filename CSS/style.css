@@ -8,3 +8,19 @@
 .disclaimer {
     text-align: center;
 }
+.playlist {
+    width: 20%;
+}
+
+
+/*mobile */
+@media screen and (max-width: 760px){
+    .playlist{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 200px){
+    .playlist {
+        width: 20%;
+    }
+}
